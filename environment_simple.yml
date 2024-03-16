@@ -1,0 +1,15 @@
+name: wec-econ
+channels:
+  - conda-forge
+  - nrel
+dependencies:
+  pandas
+  numpy
+  scipy
+  matplotlib
+  requests
+  nrel-pysam
+  pip
+  pip:
+    - mhkit
+    - gridstatus
